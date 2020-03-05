@@ -112,7 +112,7 @@ div.publication{
 div.pub {
   position: relative;
   text-align: right;
-  right:10%;
+  right:2%;
   color: white;
 }
 
@@ -124,7 +124,7 @@ div.pub {
 div.pub-center{
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 17%;
   transform: translate(-50%, -50%);
   font-size: 80px;
   color: black;
@@ -134,7 +134,7 @@ div.pub-center{
 div.research-center{
   position: absolute;
   top: 50%;
-  left: -40%;
+  left: -48%;
   transform: translate(-50%, -50%);
   font-size: 80px;
   color: black;
