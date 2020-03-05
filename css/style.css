@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'gameFont';
+  src: url('Games.ttf')format('opentype');
+}
+@font-face {
+  font-family: 'headerFont';
+  src: url('headerr.otf')format('truetype');
+}
+
+h1 {
+  font-family: 'headerFont';
+  margin: 1rem 0 1.68rem 0;
+}
+h5{
+  font-family: 'gameFont';
+}
+h3{
+  font-family: 'gameFont';
+}
+/* Change the color of links on hover */
+nav ul a:hover {
+  background-color: rgb(54, 54, 54) !important;
+
+}
+
+.brand-logo:hover{
+  color: rgb(237, 27, 48); !important;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: rgb(237, 27, 48);
+}
+
+div{
+  font-family: 'gameFont' sans-serif;
+}
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #fff;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: grey;
+  color: white;
+}
+
+
+
+nav {
+	background-color: #000 !important;
+	color: #ffffff;
+	font-weight: bold;
+  font-family: 'gameFont';
+}
+
+body {
+  background-color: white;
+}
+
+.make-black {
+  background-color: black;
+  color: white;
+}
+.make-white {
+  background-color: white;
+  color: black;
+}
+
+footer.page-footer{
+  background-color: white;
+  color: black;
+  padding-top: 0px;
+}
+
+div.divider{
+  background-color: rgb(237, 27, 48); !important;"
+}
+
+div.publication{
+    height: auto;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    background-size: cover;
+}
+
+div.pub {
+  position: relative;
+  text-align: right;
+  right:10%;
+  color: white;
+}
+
+.page-footer .footer-copyright {
+  background-color: rgb(255, 89, 127) !important;
+}
+
+
+div.pub-center{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: black;
+  font-family: 'headerFont';
+}
+
+div.research-center{
+  position: absolute;
+  top: 50%;
+  left: -40%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: black;
+    font-family: 'headerFont';
+}
+
+#button1 , #hide1, #button2, #hide2, #button3, #hide3{
+color:black; border-radius:50px; background-color:white; border: black 1px solid;
+}
+
+
+
+
+
+
+/* Primary: #eb0028
+Text: #ffffff
+Background: #000000
+New Red: rgb(237, 27, 48);;
+
+font-family: avenir-lt-w01_35-light1475496,sans-serif
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+font-family: 'Roboto', sans-serif; */

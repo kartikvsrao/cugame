@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Compiled and minified CSS -->
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+function show1() {
+  var x = document.getElementById("first");
+  var y = document.getElementById("button1");
+    x.style.display = "block";
+    y.style.display = "none";
+}
+function hide1() {
+  var x = document.getElementById("first");
+  var y = document.getElementById("button1");
+    x.style.display = "none";
+    y.style.display = "inline-block";
+}
+function show2() {
+  var x = document.getElementById("second");
+  var y = document.getElementById("button2");
+    x.style.display = "block";
+    y.style.display = "none";
+}
+function hide2() {
+  var x = document.getElementById("second");
+  var y = document.getElementById("button2");
+    x.style.display = "none";
+    y.style.display = "inline-block";
+}
+function show3() {
+  var x = document.getElementById("third");
+  var y = document.getElementById("button3");
+    x.style.display = "block";
+    y.style.display = "none";
+}
+function hide3() {
+  var x = document.getElementById("third");
+  var y = document.getElementById("button3");
+    x.style.display = "none";
+    y.style.display = "inline-block";
+}
+
+</script>
+</head>
+
+<body>
+  <nav class="hoverable z-depth-3 stroke">
+    <div class="nav-fixed" >
+      <a href="index.html" class="brand-logo"  ><i class="material-icons" style="line-height: 58px;">games</i>CUGAME</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class="active"><a href="index.html"  >Home</a></li>
+        <li><a href="about.html"  >About</a></li>
+        <li><a href="research.html"  >Research</a></li>
+        <li><a href="publication.html"  >Publication</a></li>
+        <li><a href="team.html"  >Team</a></li>
+        <li><a href="contact.html"  >Join the Lab</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Filter -->
+  <div class="row">
+
+  </div>
+  <!-- Main Content -->
+  <div class="publication make-white">
+    <div class="right">
+      <div class="pub">
+        <img src="images/research.jpg" height="300px" width="1000"alt="">
+        <div class="research-center">Research</div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="make-white">
+    <div class="container">
+      <h3>Interaction dynamics and social experiences in Social Virtual Reality (VR)</h3>
+      <center><a class="btn"  id='button1'onclick="show1()">More Info</a></center>
+      <div id="first" style="display:none">Social VR refers to 3D virtual spaces where multiple users can interact with one another through VR head-mounted displays (HMDs). The increasing popularity of social VR has led to an emerging research agenda in HCI and CSCW. In this ongoing project, we aim to empirically investigate the novelty and complexity of the multi-faced Interaction dynamics and social experiences in social VR so as to design future social VR systems as more socially and emotionally satisfactory digital social spaces that supports and promotes relationship building. Specifically, we focus on questions such as privacy and ethics, nonverbal communication, self-presentation, relationship building, and child users in social VR. Lab member  Samaneh Zamanifard has also been awarded a Facebook Ph.D. fellowship for 2020-2022 with the <a href="https://research.fb.com/fellows/zamanifard-samaneh/">AR/VR Privacy and Ethics team</a>
+      <br><center><button id='hide1'onclick="hide1()">Hide</button></center>
+      <br>
+      </div>
+    </div>
+  </div>
+  <div class="make-white">
+    <div class="container">
+      <h3>Redesigning Democratized Technology: The Broadening of Citizen Participation in Bottom-Up Technological Innovation</h3>
+      <center><a class="btn"  id='button2'onclick="show2()">More Info</a></center>
+      <div id="second" style="display:none">Funded by the National Science Foundation (#1849718)
+
+        This research will contribute actionable insights concerning two key issues about democratizing technology: technological practices remain exclusive in terms of privileged users, and participation in decision-making is unequal. It will do so by exploring two emerging, creativity-centric technology communities as case studies - activist and non-profit oriented independent game developers and creative live audio and video streamers. Its focus on democratizing technology will help computing technologies and technological practices become more inclusive, affordable, accessible, and open to everyday citizens. Its emphasis on mechanisms, strategies, and techniques that broaden the possibility of citizen participation in technological innovation increases the opportunities for and retention of females and underrepresented minorities in science and engineering education. These findings and the developed prototype resulting from this work can be used to inform and address the needs of other computing communities seeking to be more open, accessible, and participative. This research also promotes public engagement with science and technology on two levels: by generating interest in the science and technology research community to pursue research that supports bottom-up technological innovation, and by directly engaging many of those innovators in this scientific project.
+        <br><center><button id='hide2'onclick="hide2()">Hide</button></center>
+        <br>
+      </div>
+
+      </div>
+    </div>
+    <div class="make-white">
+      <div class="container">
+        <h3>Games, esports, and live streaming</h3>
+        <center><a class="btn"  id='button3'onclick="show3()">More Info</a></center>
+        <div id="third" style="display:none">Over the past 20-some years we have witnessed the increasing popularity of modern games, esports, and live streaming through competitions and events that attract up to millions of worldwide participants and online/offline spectators. It has also drawn research attention in the HCI and CSCW community regarding live streaming technologies and communication strategies of in esports as well as new interaction modality designs for such highly competitive contexts. Building on our prior work on social/collaborative game play, our ongoing research focuses on how to better understand the complex nature, scope, and practices of the gaming/live streaming ecosystem. We explore issues such as in-game purchasing behaviors, team dynamics and social support in esports, and live streamers' self-presentations and interactive activities.
+          <br><center><button id='hide3'onclick="hide3()">Hide</button></center>
+          <br>
+         </div>
+
+      </div>
+    </div>
+  </body>
+
+  <!-- Footer -->
+  <footer class="page-footer">
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5>CUGAME</h5>
+          <p >Email Address : </p>
+          <p >Address : </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.1698534612924!2d-82.83676538460622!3d34.675662392066165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88585e6ce0153fe7%3A0x585ab343fc41deca!2sMcAdams%20Hall%2C%20Clemson%2C%20SC%2029631!5e0!3m2!1sen!2sus!4v1580725284334!5m2!1sen!2sus" width="600" height="150" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2014 Copyright Text
+        <img src="images/fb.png" class="hoverable right" style="margin:2px" width="20px">
+        <img src="images/ln.png" class="hoverable right"style="margin:2px"width="20px">
+        <img src="images/tw.png" class="hoverable right"style="margin:5px"width="20px">
+      </div>
+    </div>
+  </footer>
+
+  </html>
